@@ -1,15 +1,5 @@
 'use strict';
 
-/*
-console.log(document.querySelector('.message').textContent);
-
-document.querySelector('.message').textContent = '😜 Correct Number!';
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 14;
-
-console.log(document.querySelector('.guess').value);
-document.querySelector('.guess').value = 23
-*/
 const minNumber = 1
 const maxNumber = 20
 let score = maxNumber
@@ -85,5 +75,3 @@ document.querySelector('.check').addEventListener
     }
 
 })
-
-//        document.querySelector('.message').textContent = '😒!';
